@@ -10,6 +10,8 @@ Run your first test in just a few minutes by cloning this repository!
 2. Add your Applitools API Key as a [repository Secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) under the Settings tab called `APPLITOOLS_API_KEY`
 3. Navigate to the Actions tab, find and select the CI workflow, and select Run Workflow
 
+And that's it! Your tests should now be available to review in the Applitools dashboard.
+
 ## 🚀 Running the Tests Locally
 
 ### Installing Dependencies
@@ -63,13 +65,13 @@ Also included are two separate GitHub Actions.
 
 Note: updates.yml is intended to be a tool for Applitools to maintain this tutorial with it's limited depdencies and scope. It's not recommended to automatically upgrade all dependencies without process and proper review.
 
-##  Add Applitools Eyes with your Playwright project
+## 👀 Add Applitools Eyes with your Playwright project
 
 Learn more about how to install and integrate the Eyes SDK with our [Playwright tutorial](https://applitools.com/tutorials/playwright.html)!
 
 <https://applitools.com/tutorials/playwright.html>
 
-##  More Information
+## 🧰 More Information
 
 Learn more about Applitools [Eyes](https://info.applitools.com/ucY77) and the [Ultrafast Test Cloud](https://info.applitools.com/ucY78) at [applitools.com](https://info.applitools.com/ucY76).
 
