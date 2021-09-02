@@ -2,12 +2,41 @@
 
 Get started with Applitools Eyes visual testing with these examples of using the [Playwright](https://playwright.dev/) and the [Eyes Playwright SDK](https://www.npmjs.com/package/@applitools/eyes-playwright).
 
+## ⚡️ Quick Start
 
-## Getting Started
+Run your first test in just a few minutes by cloning this repository!
+
+1. Click the **Use this template** button at the top of the repository or [click here](https://github.com/applitools/tutorial-playwright/generate) to create a new repository
+2. Add your Applitools API Key as a [repository Secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) under the Settings tab called `APPLITOOLS_API_KEY`
+3. Navigate to the Actions tab, find and select the CI workflow, and select Run Workflow
+
+## 🚀 Running the Tests Locally
 
 ### Installing Dependencies
 ```
 npm install
+```
+
+### Set Applitools API Key
+
+Before running your test, you need to make your API key available to the environment. You can do this by either prepending your test command or exporting it in your terminal session.
+
+To prepend, run you a command like `npm test` as:
+
+```
+APPLITOOLS_API_KEY="[Your Key]" npm test
+```
+
+To export your API key on a Mac, run:
+
+```
+export APPLITOOLS_API_KEY="[Your Key]"
+```
+
+To export your API key on Windows, run:
+
+```
+set APPLITOOLS_API_KEY="[Your Key]"
 ```
 
 ### Running Tests
@@ -15,7 +44,7 @@ npm install
 npm test
 ```
 
-## What's inside?
+## 🧐 What's inside?
 
 ### Test Examples
 
@@ -34,13 +63,13 @@ Also included are two separate GitHub Actions.
 
 Note: updates.yml is intended to be a tool for Applitools to maintain this tutorial with it's limited depdencies and scope. It's not recommended to automatically upgrade all dependencies without process and proper review.
 
-## Add Applitools Eyes with your Playwright project
+##  Add Applitools Eyes with your Playwright project
 
 Learn more about how to install and integrate the Eyes SDK with our [Playwright tutorial](https://applitools.com/tutorials/playwright.html)!
 
 <https://applitools.com/tutorials/playwright.html>
 
-## More Information
+##  More Information
 
 Learn more about Applitools [Eyes](https://info.applitools.com/ucY77) and the [Ultrafast Test Cloud](https://info.applitools.com/ucY78) at [applitools.com](https://info.applitools.com/ucY76).
 
