@@ -20,7 +20,7 @@ jobs:
       - run: npm install -g npm-check-updates
 
       - name: Check for Updates
-        run: ncu -u --target minor
+        run: ncu -u --target main
 
       - name: Install Updates
         run: npm install
@@ -32,4 +32,4 @@ jobs:
       - uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH_NAME: 'master'
+          BRANCH_NAME: 'main'
