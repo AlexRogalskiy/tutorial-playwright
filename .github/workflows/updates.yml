@@ -20,7 +20,7 @@ jobs:
       - run: npm install -g npm-check-updates
 
       - name: Check for Updates
-        run: ncu -u --target main
+        run: ncu -u --target minor
 
       - name: Install Updates
         run: npm install
