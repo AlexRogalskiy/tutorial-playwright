@@ -65,7 +65,7 @@ Also included are two separate GitHub Actions.
 
 Note: updates.yml is intended to be a tool for Applitools to maintain this tutorial with its limited depedencies and scope. It's not recommended to automatically upgrade all dependencies without process and proper review.
 
-## 👀 Add Applitools Eyes with your Playwright project
+## 👀 Add Applitools Eyes to your Playwright project
 
 Learn more about how to install and integrate the Eyes SDK with our [Playwright tutorial](https://applitools.com/tutorials/playwright.html)!
 
