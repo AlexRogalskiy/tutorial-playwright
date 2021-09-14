@@ -11,7 +11,7 @@ test.describe('Demo App - Basic', () => {
 
     // Optional: Set batch name for tests
 
-    eyes.setBatch({ name: 'Demo Batch - Playwright - Ultrafast' });
+    eyes.setBatch({ name: 'Demo Batch - Playwright - Basic' });
   });
 
   test('Smoke Test', async ({ page }) => {
