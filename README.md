@@ -63,7 +63,7 @@ Also included are two separate GitHub Actions.
 - tests.yml: runs the suite of tests whenever changes are pushed to the main branch or whenever a pull request is targeted to the main branch
 - updates.yml: runs daily via cron schedule updating all project dependencies
 
-Note: updates.yml is intended to be a tool for Applitools to maintain this tutorial with it's limited depdencies and scope. It's not recommended to automatically upgrade all dependencies without process and proper review.
+Note: updates.yml is intended to be a tool for Applitools to maintain this tutorial with its limited depedencies and scope. It's not recommended to automatically upgrade all dependencies without process and proper review.
 
 ## 👀 Add Applitools Eyes with your Playwright project
 
