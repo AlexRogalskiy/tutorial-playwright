@@ -2,6 +2,11 @@
 
 Get started with Applitools Eyes visual testing with these examples of using the [Playwright](https://playwright.dev/) and the [Eyes Playwright SDK](https://www.npmjs.com/package/@applitools/eyes-playwright).
 
+- [Quick Start](#%EF%B8%8F-quick-start)
+- [Running Tests Locally](#-running-the-tests-locally)
+- [What's Inside](#-whats-inside)
+- [Add Applitools Eyes to your Playwright project](#-add-applitools-eyes-to-your-playwright-project)
+
 ## ⚡️ Quick Start
 
 Run your first test in just a few minutes by cloning this repository!
