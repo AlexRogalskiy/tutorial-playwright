@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@applitools/eyes-playwright": "^1.11.2",
+    "@applitools/eyes-playwright": "^1.11.3",
     "@playwright/test": "^1.21.1",
     "playwright": "^1.21.1"
   }
